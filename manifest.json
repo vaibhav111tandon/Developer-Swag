@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Developer Swags",
+    "version": "0.1",
+    "background": {
+        "scripts": ["jquery.min.js","background.js"]
+    },
+    "permissions": ["tabs","https://","http://"],
+    "browser_action": {
+        "default_icon": "swag.jpg",
+        "default_popup": "popup.html",
+        "default_title": "Free Swags for Developers"
+    }
+}
